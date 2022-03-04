@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+:root {
+    --header-height: 75px;
+  
+    --hue-color: rgb(189, 189, 189);
+
+    --first-color: ;
+    --first-color-second: ;
+    --first-color-alt: ;
+    --first-color-lighter: ;
+    --title-color: ;
+    --text-color: ;
+    --text-color-light: ;
+    --input-color: ;
+    --body-color: ;
+    --container-color: ;
+
+    --body-font: ;
+
+    --h1-font-size: 30px;
+    --h2-font-size: ;
+    --h3-font-size: ;
+    --normal-font-size: ;
+    --small-font-size: ;
+    --smaller-font-size: ;
+
+    --font-medium: ;
+    --font-semi-bold: ;
+    
+    --mb-0-25: ;
+    --mb-0-5: ;
+    --mb-0-75: ;
+    --mb-1: ;
+    --mb-1-5: ;
+    --mb-2: ;
+    --mb-2-5: ;
+    --mb-3: ;
+
+    --z-tooltip: 1;
+    --z-fixed: 100;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}  
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    user-select: none;
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+} 
+
+button {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--hue-color);
+}
+
+.logo {
+    width: 35px;
+}
+
+.login-btn {
+    margin-right: 10px;
+}
+
+.nav-logo {
+    border-radius: 50%;
+    width: 35px;
+}
+
+.home-img {
+    position: absolute;
+    margin-right: 35px;
+}
+
+.home-title {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.home-description {
+    color: gray;
+}
+
+.footer-container {
+    margin-top: 20px;
+}
+
+.footer-link {
+    font-weight: 100;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.copy-text {
+    margin-top: 10px;
+}
